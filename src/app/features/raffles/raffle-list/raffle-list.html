@@ -1,0 +1,9 @@
+<h2>Lista de Rifas</h2>
+
+<ul>
+  <li *ngFor="let raffle of raffles">
+    <h3>{{ raffle.title }}</h3>
+    <p>{{ raffle.description }}</p>
+    <strong>Precio: ${{ raffle.price }}</strong>
+  </li>
+</ul>
